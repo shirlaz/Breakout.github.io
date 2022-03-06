@@ -4,7 +4,7 @@
 }
 
 canvas {
-    background: url(/pictures/backgroundPicture.jpg) no-repeat center fixed;
+    background: url(../pictures/backgroundPicture.jpg) no-repeat center fixed;
     display: block;
     margin: 0 auto;
 }
