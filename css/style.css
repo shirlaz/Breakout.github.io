@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+canvas {
+    background: url(../pictures/backgroundPicture.jpg) no-repeat center fixed;
+    display: block;
+    margin: 0 auto;
+}
+
+#play-button {
+    background-color: #DDA0DD;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'ArcadeClassic';
+}
+
+#re-play-button {
+    background-color: #DDA0DD;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'ArcadeClassic';
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+#re-play-button.hide {
+    visibility: hidden;
+}
+
+#re-play-button.sow {
+    visibility: none;
+}
+
+#play-button.hide {
+    visibility: hidden;
+}
+
+#play-button.sow {
+    visibility: none;
+}
